@@ -1,11 +1,11 @@
 # projetos-react
 Aqui vou compartilhar meus novos estudos em programação, agora com a biblioteca React.
 
-Esse projeto é um botão que recebe o nome do player através de um caixa de diálogo e o atualiza em seguida ao "OK".
+Esse projeto é um botão que recebe o nome do player através de uma caixa de diálogo e o atualiza em seguida ao clicar em "OK".
 
 ![button](https://user-images.githubusercontent.com/92792650/180044090-28ac9d65-5652-414a-a6f1-3ffa8a17ca0e.png)
 
-Você encontrará o código em JS e também o mesmo código transposto à React.
+Você encontrará o código em JS e também em React.
 
 Ainda são estudos iniciais, mas que valem muito para mim.
 Step by step!
