@@ -1,24 +1,25 @@
-const buttonAddtaskList = document.querySelectorAll('button');
+const buttonAddTask = document.querySelectorAll('button');
 
 const clearInput = () => {
+    
     return document.querySelector('input').value = '';
 }
 
-const createParagraphTaskList = () => {   
+const createParagraphTasks = () => {   
 
-    let inputTaskList = document.querySelector('input').value;
+    let inputTasks = document.querySelector('input').value;
 
     let createParagraph = document.createElement('p');
 
-    createParagraph.textContent = inputTaskList;   
+    createParagraph.textContent = inputTasks;   
     
     document.body.append(createParagraph);   
 
     clearInput();
 }
 
-for(let i = 0; i < buttonAddtaskList.length; i++) {
-    buttonAddtaskList[i].addEventListener('click', createParagraphTaskList);
+for(let i = 0; i < buttonAddTask.length; i++) {
+    buttonAddTask[i].addEventListener('click', createParagraphTasks);
 }
 
 
