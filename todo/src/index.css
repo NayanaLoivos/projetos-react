@@ -1,0 +1,14 @@
+html {
+  background: linear-gradient(
+    195deg, 
+    rgb(116, 89, 251) 0%,
+    rgb(174, 80, 91) 98%
+  );
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: aliceblue;
+}
