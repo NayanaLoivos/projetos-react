@@ -1,0 +1,23 @@
+.card {
+    
+    margin: 20px;
+    border: 3px dashed rgb(227, 86, 10);
+    border-radius: 10px;     
+
+    display: flex;
+    flex-direction: column;  
+    min-width: 300px;  
+}
+
+.card, .titulo {    
+
+    color: rgb(227, 86, 10);
+    background-color:aliceblue;
+}
+.conteudo {   
+
+    color: rgb(77, 77, 77);
+    background-color: rgb(240, 209, 209);  
+    padding: 10px;  
+}
+

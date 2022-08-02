@@ -1,0 +1,14 @@
+body {    
+    width: auto;
+    font-family: fantasy, serif;
+    font-weight: 300;
+    font-size: 1.5rem;
+    background-color: rgb(255, 255, 255);
+    color: rgb(62, 62, 62);
+    text-align: center;
+}
+
+h1, h2, h3 {
+    
+    font-weight: 300;
+}
